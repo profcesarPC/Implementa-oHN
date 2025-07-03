@@ -41,8 +41,18 @@ section {
 }
 
 img {
-    border: 2px solid #02735e;
-    border-radius: 10px;
+    display: block;
+    margin: 2rem auto;
+    width: 390px;
+    border: 5px solid #024b3a;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease; /* Suaviza o efeito */
+}
+
+#imagem:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 25px rgba(0, 255, 100, 0.6);
 }
 
 footer {
@@ -51,3 +61,4 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
