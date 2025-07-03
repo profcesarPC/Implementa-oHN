@@ -1,5 +1,15 @@
-// JavaScript: adiciona interatividade
+// Ao abrir a página, perguntar o nome
+window.onload = function() {
+    let nome = prompt("Olá! Qual é o seu nome?");
+    if (nome) {
+        document.getElementById("saudacao").textContent = `Seja bem-vindo(a), ${nome}!`;
+    } else {
+        document.getElementById("saudacao").textContent = "Seja bem-vindo(a)!";
+    }
+}
+
+// Função para trocar imagem
 function mudarImagem() {
     const imagem = document.getElementById('imagem');
-    imagem.src = 'nova-imagem.jpg'; // Substitua pelo nome real da nova imagem
+    imagem.src = 'nova-imagem.jpg'; // Altere conforme sua imagem extra
 }
