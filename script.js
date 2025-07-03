@@ -7,10 +7,3 @@ window.onload = function() {
         document.getElementById("saudacao").textContent = "Seja bem-vindo(a)!";
     }
 }
-
-// Função para trocar imagem
-function mudarImagem() {
-    const imagem = document.getElementById('imagem');
-    imagem.src = 'imagem/nova-imagem.jpg'; 
-
-}
