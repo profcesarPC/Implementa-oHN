@@ -11,5 +11,6 @@ window.onload = function() {
 // Função para trocar imagem
 function mudarImagem() {
     const imagem = document.getElementById('imagem');
-    imagem.src = 'nova-imagem.jpg'; // Altere conforme sua imagem extra
+    imagem.src = 'imagem/nova-imagem.jpg'; 
+
 }
